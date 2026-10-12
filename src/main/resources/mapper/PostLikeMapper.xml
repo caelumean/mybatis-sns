@@ -19,7 +19,7 @@
     <select id="countLike" resultType="int">
         SELECT COUNT(*)
         FROM post_like
-        WHERE member_id = #{memberId} AND post_id = #{postId};
+        WHERE member_id = #{memberId} AND post_id = #{postId}
     </select>
 
 </mapper>

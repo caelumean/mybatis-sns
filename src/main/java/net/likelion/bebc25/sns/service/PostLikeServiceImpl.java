@@ -26,7 +26,7 @@ public class PostLikeServiceImpl implements PostLikeService{
     public LikeToggleResponse toggleLike(Long memberId, Long postId) {
 
         // 1. 대상 게시글의 존재 여부 확인
-        PostResponse post =postMapper.findById(postId);
+        PostResponse post = postMapper.findById(postId);
         if(post==null){
             throw new IllegalArgumentException("해당 게시글이 없습니다. id: " + postId);
         }

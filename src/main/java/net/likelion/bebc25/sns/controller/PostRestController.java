@@ -75,7 +75,7 @@ public class PostRestController {
 //        // 본인의 게시글인지 확인
 //        if(!post.memberId().equals(userDetails.getId())){
 //            // 404로 보내기
-////            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
+//            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
 //            throw new IllegalStateException("본인의 게시글만 수정이 가능합니다.");
 //        }
 
